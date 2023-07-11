@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/project_1/Css/signin.css" />
+    <link rel="stylesheet" href="/project_1/Css/sign/log_bg.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="header1">
+        <img
+          id="lo"
+          src="/project_1/Images/Logo.jpg"
+          href="/project_1/"
+          height="65"
+          alt="Logo"
+        />
+        <ul id="ulist">
+          <a href="/project_1/">
+            <li class="li1">Home</li>
+          </a>
+          <li class="li1">Offers</li>
+          <li class="li1">Catagories</li>
+          <a href="/project_1/Pages/signin.html">
+            <li class="li1">Sign In</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="sig">
+      <h2>Login Form</h2>
+      <form action="/project_1/" method="post">
+        <div class="imgcontainer">
+          <img
+            src="/project_1/Images/avatar1.png"
+            alt="Avatar"
+            class="avatar"
+          />
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            required
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <a href="/project_1/Pages/signup.html">
+            <button type="button" class="signupbtn">Sign Up</button>
+          </a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

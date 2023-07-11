@@ -1,0 +1,123 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  height: 100%;
+  width: 100%;
+  background-image: url("/project_1/Images/Homepage_main_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  background-color: black;
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.header ul {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.header ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 3px 6px;
+
+  cursor: pointer;
+}
+
+.header ul li:hover {
+  font-size: 22px;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(202, 202, 202);
+}
+
+.Main {
+  margin-top: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.car-container {
+  border: 1px solid white;
+  display: inline-block;
+  background-color: rgb(202, 202, 202);
+  margin: 10px;
+  padding: 20px;
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+  width: 80vw;
+  height: 50vh;
+  background-size: 120%;
+  transition: all ease-in-out 0.5s;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.car-container.audi {
+  background-image: url("/project_1/Images/Audi_bg.jpg");
+}
+
+.car-container.bmw {
+  background-image: url("/project_1/Images/BMW_bg.jpg");
+}
+
+.car-container.chevrolet {
+  background-image: url("/project_1/Images/chervolet_bg.jpg");
+}
+
+.car-container.dodge {
+  background-image: url("/project_1/Images/Dodge_bg.jpg");
+}
+
+.car-container:hover {
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.Footer {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  padding: 20px;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#foot_p {
+  text-align: center;
+}
+.space {
+  height: 110vh;
+  width: 100%;
+}
