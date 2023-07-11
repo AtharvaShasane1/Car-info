@@ -11,7 +11,7 @@ body {
   );
   height: 100%;
   width: 100%;
-  background-image: url("/project_1/Images/Homepage_main_bg.jpg");
+  background-image: url("/Images/Homepage_main_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -80,19 +80,19 @@ body {
 }
 
 .car-container.audi {
-  background-image: url("/project_1/Images/Audi_bg.jpg");
+  background-image: url("/Images/Audi_bg.jpg");
 }
 
 .car-container.bmw {
-  background-image: url("/project_1/Images/BMW_bg.jpg");
+  background-image: url("/Images/BMW_bg.jpg");
 }
 
 .car-container.chevrolet {
-  background-image: url("/project_1/Images/chervolet_bg.jpg");
+  background-image: url("/Images/chervolet_bg.jpg");
 }
 
 .car-container.dodge {
-  background-image: url("/project_1/Images/Dodge_bg.jpg");
+  background-image: url("/Images/Dodge_bg.jpg");
 }
 
 .car-container:hover {
